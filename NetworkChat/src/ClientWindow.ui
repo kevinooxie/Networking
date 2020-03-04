@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientWindow</class>
+ <widget class="QWidget" name="ClientWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ClientWindow</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="5,1">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser_"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="8,1">
+     <item>
+      <widget class="QTextEdit" name="textEdit_"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sendBtn_">
+       <property name="text">
+        <string>Send</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
